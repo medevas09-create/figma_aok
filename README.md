@@ -85,5 +85,10 @@ UI/UX: Desain mobile-first, responsif, dan intuitif
 Komunikasi: Simulasi chat support berbasis logika frontend (tanpa backend kompleks)
 
 🚀 Cara Menjalankan
-# enter to this link:
-https://grow-read-87033365.figma.site/
+###Employee Task Update App
+This is a code bundle for Employee Task Update App. The original project is available at https://www.figma.com/design/5bUFYWB5sxNlnXwvmkz2EC/Employee-Task-Update-App.
+
+Running the code
+Run npm i to install the dependencies.
+
+Run npm run dev to start the development server.
