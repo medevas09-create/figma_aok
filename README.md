@@ -85,5 +85,5 @@ UI/UX: Desain mobile-first, responsif, dan intuitif
 Komunikasi: Simulasi chat support berbasis logika frontend (tanpa backend kompleks)
 
 🚀 Cara Menjalankan
-# enter to thid link:
+# enter to this link:
 https://grow-read-87033365.figma.site/
