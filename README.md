@@ -1,70 +1,98 @@
-Fitur Utama:
+📱 Aplikasi Karyawan Field Service – AOK OPS
+Aplikasi berbasis web untuk karyawan lapangan (field service) yang memudahkan manajemen tugas instalasi, pelaporan real-time, dan komunikasi langsung dengan Customer Support — semua dalam satu antarmuka mobile-friendly.
 
-Halaman Login - Interface yang clean dengan username dan password (untuk demo, username/password apa saja bisa digunakan)
+✨ Fitur Utama
+🔐 Halaman Login
+Antarmuka bersih dan sederhana
+Demo login: username & password apa saja diterima
+👤 Profil Karyawan
+Menampilkan informasi lengkap:
 
-Halaman Profil Karyawan - Menampilkan informasi lengkap termasuk:
-
-Nama dan posisi
+Nama & posisi
 ID karyawan
 Nomor handphone
 Email
 Area kerja
 Tanggal bergabung
-Daftar Job/Tugas - Menampilkan semua tugas instalasi dengan:
 
+
+📋 Daftar Tugas (Job List)
 Notifikasi untuk tugas baru yang belum dikerjakan
-Status tugas (Belum Dikerjakan, Sedang Dikerjakan, Selesai)
-Prioritas tugas (Tinggi, Sedang, Rendah)
-Detail pelanggan dan waktu jadwal
-Update berkala dengan badge notifikasi
-Form Update Tugas - Ketika mengerjakan tugas, form otomatis:
+Status tugas: Belum Dikerjakan, Sedang Dikerjakan, Selesai
+Prioritas: Tinggi, Sedang, Rendah
+Detail pelanggan & jadwal instalasi
+Badge notifikasi update real-time
 
-Wajib ambil foto sebelum menyelesaikan tugas
-Deteksi lokasi otomatis menggunakan GPS/geolocation browser
-Geotag akurat dengan koordinat latitude dan longitude
-Form catatan opsional untuk detail tambahan
-Navigasi Responsif - Toggle antara Daftar Tugas dan Profil dengan mudah
 
-Teknologi yang Digunakan:
+📝 Form Update Tugas
+Saat menyelesaikan tugas, sistem secara otomatis:
 
-Geolocation API untuk deteksi lokasi real-time
-Camera/file input untuk capture foto
-State management sederhana dengan React hooks
-UI yang mobile-friendly dan mudah digunakan
+Mewajibkan pengambilan foto
+Mendeteksi lokasi real-time via Geolocation API
+Menyimpan koordinat GPS (latitude & longitude) sebagai geotag
+Menyediakan catatan opsional untuk detail tambahan
 
-///////////////////////////////////////////////
 
-Fitur Chat Support yang Ditambahkan:
+🔄 Navigasi Responsif
+Toggle cepat antara Daftar Tugas dan Profil
 
-Interface Chat Modern dengan:
+💬 Fitur Chat Support
 
-Header yang menunjukkan CS Support sedang online
-Area pesan dengan bubble chat yang berbeda untuk user dan support
-Indikator "typing" saat CS support sedang mengetik
-Timestamp dan read receipt untuk setiap pesan
-Quick Message Buttons - Tombol cepat untuk konfirmasi:
+🧾 Interface Chat Modern
+Header status: CS Support sedang online
+Bubble chat terpisah untuk user & support
+Indikator "typing..." saat CS merespons
+Timestamp & read receipt per pesan
 
-Konfirmasi alamat pelanggan
-Konfirmasi nomor telepon
-Detail paket langganan
-Konfirmasi jadwal instalasi
-Auto-Response Intelligent - CS Support otomatis merespons berdasarkan kata kunci:
+⚡ Quick Message Buttons
+Tombol cepat untuk konfirmasi:
 
-Alamat/lokasi pelanggan
+Alamat pelanggan
 Nomor telepon
 Detail paket langganan
 Jadwal instalasi
+
+
+🤖 Auto-Response Cerdas
+CS Support otomatis merespons berdasarkan kata kunci:
+
+Lokasi/alamat
+Nomor telepon
+Paket langganan
+Jadwal instalasi
 Kendala teknis
-Tombol Chat di Setiap Job - Setiap tugas (yang belum selesai) memiliki tombol "Chat dengan CS Support" untuk langsung memulai chat terkait job tersebut
 
-Informasi Job di Chat - Banner di atas chat yang menampilkan detail job yang sedang dibahas
 
-Tombol Call Direct - Tombol untuk langsung menghubungi pelanggan dari chat interface
+📌 Konteks Job di Chat
+Setiap tugas (belum selesai) memiliki tombol "Chat dengan CS Support"
+Banner di atas chat menampilkan detail job yang sedang dibahas
+Tombol "Call Direct" untuk menghubungi pelanggan langsung dari chat
 
-Workflow yang Ditingkatkan:
 
-Karyawan dapat mengklik tombol chat di job card
-Chat window terbuka dengan konteks job yang spesifik
-Karyawan dapat menanyakan detail pelanggan sebelum instalasi
-CS Support (dalam bentuk auto-response) memberikan informasi yang dibutuhkan
-Setelah konfirmasi selesai, karyawan dapat langsung memulai instalasi dengan data yang akurat 
+🔄 Workflow Terintegrasi
+Karyawan klik tombol chat di job card
+Chat terbuka dengan konteks job spesifik
+Karyawan konfirmasi data pelanggan via chat
+CS Support (auto-response) memberikan info akurat
+Instalasi dimulai dengan data valid
+
+
+🛠️ Teknologi yang Digunakan
+Frontend: React.js (dengan Hooks untuk state management)
+Geolocation: Web Geolocation API (real-time GPS)
+Kamera: Input file/camera browser untuk capture foto
+UI/UX: Desain mobile-first, responsif, dan intuitif
+Komunikasi: Simulasi chat support berbasis logika frontend (tanpa backend kompleks)
+
+🚀 Cara Menjalankan
+# Clone repositori
+git clone https://github.com/AOK-opsnet/aok-ops-field-app.git
+
+# Masuk ke direktori
+cd aok-ops-field-app
+
+# Install dependensi
+npm install
+
+# Jalankan aplikasi
+npm start
